@@ -15,4 +15,3 @@ vim.opt.scrolloff = 8
 vim.opt.wrap = false
 
 vim.opt.termguicolors = true
-vim.cmd('colorscheme habamax')
