@@ -37,6 +37,8 @@ local plugins = {
       }
     },
     {'rebelot/kanagawa.nvim'},
+    {'ggandor/leap.nvim'},
 }
 
 require("lazy").setup(plugins, opts)
+require('leap').add_default_mappings()
