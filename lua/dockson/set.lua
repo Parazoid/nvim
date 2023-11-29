@@ -15,3 +15,4 @@ vim.opt.scrolloff = 8
 vim.opt.wrap = false
 
 vim.opt.termguicolors = true
+vim.opt.cmdheight = 0
