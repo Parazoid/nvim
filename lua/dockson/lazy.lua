@@ -20,7 +20,10 @@ local plugins = {
 
     {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
     {"nvim-treesitter/playground"},
-
+    {"ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        dependencies = { 'nvim-lua/plenary.nvim' },
+    },
     {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v2.x',
@@ -36,6 +39,7 @@ local plugins = {
         {'L3MON4D3/LuaSnip'},     -- Required
       }
     },
+    {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'},
     {'rebelot/kanagawa.nvim'},
     {'ggandor/leap.nvim'},
 }
