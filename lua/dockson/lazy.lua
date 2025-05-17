@@ -45,4 +45,4 @@ local plugins = {
 }
 
 require("lazy").setup(plugins, opts)
-require('leap').add_default_mappings(true) -- true is for overiding plugin mappings, <S-s> to leap backwards
+require("leap").add_default_mappings(true) -- true is for overiding plugin mappings, <S-s> to leap backwards
